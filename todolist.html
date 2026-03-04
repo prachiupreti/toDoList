@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+   <section id="nav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#todo">ToDoList</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </section>
+
+  <section id="home">
+    <div id="dailydots">
+    <h1>DailyDots</h1>
+    <p>One dot at a time.</p>
+    </div>
+  </section>
+
+  <section id="todo">
+    <div class="container">
+        <h1>MyTasks</h1>
+        <span>
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskButton">Add Task</button>
+        </span>
+        <ul id="taskList"></ul>
+    </div>
+  </section>
+
+  <section id="about">
+    <h1>About</h1>
+    <p>DailyDots is a simple yet powerful task management web app designed to help you stay organized, focused, and productive—one dot at a time. <br> <br>With DailyDots, you can: <br>
+-Create tasks and subtasks to break down your day into manageable steps.
+<br>
+-Mark tasks as complete with a custom, intuitive checkbox.
+<br>
+-Edit or delete tasks easily to keep your to-do list up to date.
+<br>
+-Track your progress with tasks saved automatically in your browser for quick access anytime.
+<br>
+<br>
+Whether you’re managing daily chores, work projects, or personal goals, DailyDots keeps your tasks organized in a clean, simple, and visually neat layout.
+<br>
+“One dot at a time” — focus on completing small steps to achieve big goals.</p>
+  </section>
+
+<section id="contact" class="contact-section">
+  <div class="left">
+    <h1>Let's<br>CONNECT!</h1>
+
+    <div id="email">Email:</div>
+    <div id="email1">prachiupreti2186@gmail.com</div>
+    <br>
+
+    <div id="phone">Phone number:</div>
+    <div id="phone1">+91 7303077548</div>
+  </div>
+
+  <div class="right">
+    <input type="text" placeholder="Your Name">
+    <input type="text" placeholder="Your Contact">
+    <textarea placeholder="Your Feedback"></textarea>
+    <button>Send</button>
+  </div>
+</section>
+<script src="todolist.js"></script>
+
+</body>
+</html>
